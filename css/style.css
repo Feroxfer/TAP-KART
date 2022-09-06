@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(151, 144, 144, 0.733);
+    text-align: center;
+}
+.card{
+    background-color: rgba(240, 240, 240, 0.863);
+    width: 310px;
+    height: auto;
+    text-align: center;
+    border-radius: 3%;
+    display:inline-block;
+    margin: 3px;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px 1px #8D94AD;
+}
+.card h3,.card h5,.card p
+{
+    text-align: left;
+    margin: 0px;
+    text-indent: 10px;
+    line-height: 30px;
+    color: #212C3A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px gray;
+}
+.card img{
+    width: 290px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px;
+    
+}
+ .card h5{
+    font-size: 17px;
+    font-weight: 300;
+}
+.card img{
+   
+}
+.card p{
+    color: #8D94AD;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+} 
